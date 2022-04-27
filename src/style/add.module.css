@@ -1,0 +1,19 @@
+.head {
+  color: #502d05;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.title {
+  letter-spacing: 3px;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-style: italic;
+}
+.body {
+  color: #502d05;
+  font-weight: bold;
+}

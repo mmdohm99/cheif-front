@@ -1,0 +1,115 @@
+body {
+  background-color: #fbf0e4;
+}
+.nav {
+  box-shadow: 0 0px 10px 0 #502d05;
+  background-color: #f3e3cf;
+  color: #502d05;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  box-shadow: 1px 0px 7px 0 #502d05;
+  position: relative;
+  right: 3%;
+  background-color: #fbf0e4;
+  width: 300px;
+  border: 5px solid #502d05;
+  border-radius: 30%;
+  margin: 10px;
+  font-size: 2em;
+  padding: 10px;
+  font-weight: bold;
+}
+.container {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px 60px;
+}
+.btn {
+  box-shadow: 0 2px 6px 0 #502d05;
+  transition-duration: 0.5s;
+  background-color: #502d05;
+  color: #fbf0e4;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 10px;
+}
+.btn:hover {
+  box-shadow: 0 2px 6px 0 #502d05;
+  transition-duration: 0.5s;
+  background-color: #fbf0e4;
+  color: #502d05;
+}
+.card {
+  box-shadow: 0 2px 6px 0 #502d05;
+
+  color: #502d05;
+  width: 100%;
+  height: 100%;
+  background-color: #f3e3cf;
+  border: 3px solid #fbf0e4;
+  border-radius: 10%;
+  margin: 5px;
+
+  padding: 10px;
+  font-weight: bold;
+}
+.image {
+  /* border: 2px solid #502d05; */
+  box-shadow: 0 4px 10px 1px #502d05;
+  width: 100%;
+  height: 30vh;
+  border-radius: 50%;
+}
+
+.title {
+  /* text-decoration: underline; */
+  letter-spacing: 3px;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-style: italic;
+
+  text-transform: uppercase;
+}
+.recipe {
+  width: 100%;
+  height: 30px;
+  /* font-size: 1.5em;
+  font-weight: bold; */
+}
+.ingredient {
+  width: 100%;
+  height: 30px;
+  font-size: 1em;
+}
+.footer {
+  color: #363062;
+  display: flex;
+
+  border-radius: 8px !important;
+  justify-content: space-around;
+  padding: 5px;
+}
+.fbtn {
+  box-shadow: 0 2px 6px 0 #502d05;
+  transition-duration: 0.5s;
+  background-color: #502d05;
+  color: #fbf0e4;
+  border: none;
+  border-radius: 8px;
+  margin: 3px;
+}
+.fbtn:hover {
+  box-shadow: 0 4px 6px 0 #502d05;
+  transition-duration: 0.5s;
+  background-color: #fbf0e4;
+  color: #502d05;
+}
